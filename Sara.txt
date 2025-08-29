@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sara Ahmed</title>
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+        text-align: center;
+        color: #444;
+    }
+    header {
+        background: #fff;
+        padding: 15px;
+        font-size: 28px;
+        font-weight: bold;
+        color: #ff6f91;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .intro {
+        margin: 30px 10px;
+    }
+    .intro img {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        border: 5px solid #fff;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        object-fit: cover;
+    }
+    .intro h2 {
+        margin-top: 10px;
+        color: #ff6f91;
+    }
+    .btn {
+        display: inline-block;
+        margin-top: 15px;
+        padding: 12px 20px;
+        background: #ff6f91;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 30px;
+        transition: 0.3s;
+    }
+    .btn:hover {
+        background: #ff4d6d;
+    }
+    section {
+        background: #fff;
+        margin: 20px;
+        padding: 15px;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    h3 {
+        color: #ff6f91;
+    }
+    .gallery img {
+        width: 130px;
+        height: 130px;
+        margin: 10px;
+        border-radius: 15px;
+        object-fit: cover;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    footer {
+        padding: 10px;
+        background: #ff6f91;
+        color: white;
+        margin-top: 20px;
+    }
+</style>
+</head>
+<body>
+<header>Welcome to Sara's World 🌸</header>
+
+<div class="intro">
+    <img src="sara1.jpg" alt="Sara">
+    <h2>Hello, I'm Sara Ahmed!</h2>
+    <p>A girl full of dreams ✨ Loves creativity & fun 💖</p>
+    <a class="btn" href="#gallery">See My Gallery</a>
+</div>
+
+<section>
+    <h3>About Me</h3>
+    <p>I am Sara Ahmed. I love drawing, music, gaming, and spending time with family. 🌼</p>
+</section>
+
+<section>
+    <h3>Hobbies</h3>
+    <ul style="list-style:none; padding:0;">
+        <li>🎨 Drawing & Art</li>
+        <li>🎮 Gaming</li>
+        <li>🎵 Music</li>
+        <li>✈ Traveling</li>
+    </ul>
+</section>
+
+<section id="gallery">
+    <h3>My Gallery</h3>
+    <div class="gallery">
+        <img src="sara1.jpg" alt="pic1">
+        <img src="sara2.jpg" alt="pic2">
+    </div>
+</section>
+
+<footer>
+    Made with ❤️ for Sara Ahmed | Contact: sara@example.com
+</footer>
+
+</body>
+</html>
